@@ -1,0 +1,11 @@
+body {
+    background: #f3f3f3 url(../img/background.jpeg);
+    background-size: cover;
+}
+
+.login{
+    background: #ffffff;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    color: #848484;
+}

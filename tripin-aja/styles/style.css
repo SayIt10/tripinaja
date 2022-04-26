@@ -1,0 +1,445 @@
+.navigation {
+    margin-left: 450px;
+}
+
+.navigation ul li{
+    margin-left: 20px;
+}
+
+.navigation ul li a{
+    color: lightgrey;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.navigation ul li a:hover{
+    color: #146dbd;
+}
+
+.form-inline a{
+    width: 100px;
+}
+
+/*content*/
+.content-left {
+    position: absolute;
+}
+
+.hero-image img {
+    position: relative;
+    z-index: 100;
+    width: 310px;
+    height: 468px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+.photo-bg{
+    background-image: url(../img/home-img-2.png);
+    border-radius: 20px;
+    width: 310px;
+    height: 468px;
+    z-index: 100;
+    position: relative;
+    left: 230px;
+    top: -370px;
+}
+
+.hero-form {
+    width: 532px;
+    height: 498px;
+    margin-top: 100px;
+    margin-left: 20px;
+    /* Dark Blue */
+
+    background: rgba(20,109,189, 0.2);
+    border-radius: 10px;
+}
+
+.input-group {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.input-group input[type=location]{
+    margin-top: 3px;
+}
+
+.input-group input[type=number]{
+    margin: 3px;
+}
+
+.form-row {
+    margin-top:40px;
+}
+
+.input-group-text {
+    background-color: white;
+    color:#1988e5;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=date]{
+    border: none;
+    width: 150px;
+}
+
+.input-group input[type=number]{
+    border:none;
+}
+
+.submit{
+    margin-left: 290px;
+    margin-top: 30px;
+}
+
+.submit input[type=submit]{
+    background-color: #146dbd;
+    color: white;
+}
+
+.submit input[type=submit]:hover {
+    background-color: #147DBD;
+}
+
+/*login */
+.hero-form img{
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+}
+
+.top{
+    color:#146dbd;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.top h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.form{
+    margin-top: 1px;
+}
+
+.login-form{
+    border: #146dbd 2px solid;
+}
+
+.input-submit input[type=submit]{
+    width: 540px;
+    align-items: center;
+    background-color: #146dbd;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.line {
+    margin-left: 165px ;
+    margin-top: 20px;
+}
+
+.line p {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #bcbcbc;
+}
+
+.line hr{
+    width: 100px;
+    float: left;
+}
+
+.log-google p {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.log-google img{
+    width: 20px;
+    height: 20px;
+    margin-left: 175px;
+}
+
+/*register*/
+.register-right{
+    margin-top: 5px;
+}
+
+.register input[type=number]{
+    border: 1px solid #1988e5;
+}
+
+.register input[type=text]{
+    border: 1px solid #1988e5;
+}
+
+.register input[type=email]{
+    border: 1px solid #1988e5;
+}
+
+.register input[type=password]{
+    border: 1px solid #1988e5;
+}
+
+.register textarea{
+    border: 1px solid #1988e5;
+    border-radius: 5px;
+}
+
+.register-submit {
+    float: right;
+    margin-top: 40px;
+}
+
+.register input[type=radio]{
+    float: left;
+    margin-left: 20px;
+}
+
+.form-check-label {
+    margin-left: 50px;
+}
+
+.register input[type=tel]{
+    border: #1988e5 1px solid;
+}
+
+/*gettrip*/
+.judul {
+    border: 1px solid #bcbcbc;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.pesanan i{
+    float: left;
+    color: #1988e5;
+}
+
+.pesanan h5 {
+    float: left;
+    margin-left: 20px;
+}
+
+.pesanan ul li{
+    float: left;
+    margin-left: 40px;
+}
+
+.trip-left {
+    border: #bcbcbc 1px solid;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.content-trip-left {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.form-check {
+    margin-top: 10px;
+}
+
+/*trip content*/
+.trip-right {
+    margin-left: 10px;
+}
+
+.trip-content {
+    border: #bcbcbc 1px solid;
+    border-radius: 10px;
+    height: 190px;
+    margin-top: 20px;
+}
+
+.trip-content h5 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    width: 400px;
+}
+
+.trip-content img{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.trip-content h6{
+    font-size: 15px;
+    position: relative;
+    left: 0px;
+    float: left;
+    font-weight: 600;
+    color: #1988e5;
+}
+
+.trip-content a{
+    margin-left: 20px;
+    float: left;
+}
+
+.facility {
+    position: relative;
+    left: 40px;
+    top: -5px;
+}
+
+.facility ul {
+    list-style-type: none;
+}
+
+.facility ul li img {
+    width: 15px;
+    height: 15px;
+}
+
+.deskripsi {
+    width: 325px;
+    float: left;
+    height: 50px;
+}
+.deskripsi p {
+    margin-left: 0px;
+}
+
+.price {
+    float: right;
+}
+
+.price p{
+    margin-top: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.bottom-content {
+    width: 100%;
+}
+
+.bottom-content a{
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.bottom-content input[type=submit]{
+    margin-left: 100px;
+    width: 120px;
+}
+
+/*footer*/
+.footer hr{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.logo-img img{
+    width: 80px;
+    height: 60px;
+    margin-left: 90px;
+}
+
+.col p{
+    color: #1988e5;
+    font-size: 15px;
+}
+
+.col h3 {
+    color: #1988e5;
+    font-weight: 20px;
+}
+
+.col a {
+    text-decoration: none;
+    color: #1988e5;
+}
+
+.img p {
+    float: left;
+}
+
+.img img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+
+/*--------- Page Order ----------*/
+.navigation-pageorder ul li{
+    margin-left: 70px;
+}
+
+.navigation-pageorder ul li a{
+    color: #bcbcbc;
+}
+
+.hero-form-pageorder{
+    background: rgba(20,109,189, 0.2);
+    height: 300px;
+    border-radius: 10px;
+}
+
+.hero-form-pageorder .form-row{
+    margin-left: 40px;
+}
+
+.hero-form-pageorder .form-row h4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-form-pageorder .form-row .form-group .form-control{
+    height: 50px;
+}
+
+/*right*/
+
+.confirm-order{
+    border: 1px solid #bcbcbc;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
+
+
+.confirm-order input[type=submit]{
+    background-color: #146dbd;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
